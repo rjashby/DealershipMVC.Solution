@@ -27,3 +27,7 @@ namespace Dealership.Models
     }
   }
 }
+
+// home index is blank
+// cars don't go to list
+// link to show cars goes nowhere
