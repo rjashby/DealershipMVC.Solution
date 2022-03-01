@@ -25,6 +25,5 @@ namespace Dealership.Controllers
       Car car = new Car(makeModel, year, price, miles);
       return RedirectToAction("Index");
     }
-
   }
 }
