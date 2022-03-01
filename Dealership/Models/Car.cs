@@ -6,13 +6,13 @@ namespace Dealership.Models
   {
   // Public auto-implemented properties
     public string MakeModel { get; set; }
-    public string Year { get; set; }
-    public string Price { get; set; }
-    public string Miles { get; set; }
+    public int Year { get; set; }
+    public int Price { get; set; }
+    public int Miles { get; set; }
     private static List<Car> _instances = new List<Car> {};
 
     // Constructor
-    public Car(string makeModel, string year, string price, string miles) 
+    public Car(string makeModel, int year, int price, int miles) 
     {
         Year = year;
         MakeModel = makeModel;
@@ -27,7 +27,3 @@ namespace Dealership.Models
     }
   }
 }
-
-// home index is blank
-// cars don't go to list
-// link to show cars goes nowhere
