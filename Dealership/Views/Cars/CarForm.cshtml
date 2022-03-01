@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Add a Car to the Lot</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  </head>
+  <body>
+    <form action="/cars" method="post">
+      <label for="makeModel">Add the Make and Model:</label>
+      <input id="makeModel" name="makeModel" type="text">
+      <label for="year">Add the Year:</label>
+      <input id="year" name="year" type="text">
+      <label for="price">Add the Vehicle Price:</label>
+      <input id="price" name="price" type="text">
+      <label for="miles">Add the Miles:</label>
+      <input id="miles" name="miles" type="text">
+      <button class="btn btn-light" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
